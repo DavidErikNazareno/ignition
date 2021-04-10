@@ -33,7 +33,7 @@ module.exports = {
             use: { 
                 loader:'babel-loader',
                 options: {
-                plugins: [
+                 plugins: [
                     isDevelopment && require.resolve('react-refresh/babel')
                 ].filter(Boolean)
               }
